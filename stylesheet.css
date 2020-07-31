@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  /*border: 2px solid white;*/
+  height: 90px;
+  width: 100%;
+  background-color: rgba(37, 18, 2, 0.74);
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  height: 65px;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  border: 5px solid #ddd;
+}
+
+.header-left {
+  /*border: 2px solid white;*/
+  float: left;
+  margin-right: 20px;
+}
+
+.header-left-child {
+  float: left;
+  /*border: 2px solid red;*/
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.5s;
+  margin-right: 0px;
+}
+
+.header-left-child:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-left-child a {
+  line-height: 90px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.header-right {
+  margin-left: -20px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 90px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  transition: all 0.5s;
+  float: left;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.top-wrapper {
+  padding: 140px 0 100px 0;
+  background: rgba(0, 0, 0, 0.5)
+    url(https://cdn.pixabay.com/photo/2017/07/06/06/11/coffe-2477154_960_720.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 100px;
+  letter-spacing: 5px;
+  margin-bottom: 0px;
+}
+
+.top-wrapper h2 {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.pesan {
+  background-color: #6f4e37;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.product-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.product-icon {
+  position: relative;
+}
+
+.product-icon p {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  color: white;
+  border-radius: 50px;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text-contents {
+  width: 90%;
+  display: inline-block;
+  margin-top: 4px;
+  font-size: 25px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #6f4e37;
+  cursor: pointer;
+  box-shadow: 0 7px #3c1321;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  /*border: 2px dashed black;*/
+  height: 180px;
+  width: 100%;
+  background-color:rgba(37, 18, 2, 0.74);
+  color: white;
+}
+
+.footer-left {
+  /*border: 2px solid red;*/
+  float: left;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.footer-left-desc {
+  /*border: 2px dashed white;*/
+  float: left;
+  width: 150px;
+  margin-top: 20px;
+}
+
+
+
+.footer-right {
+  float: right;
+  /*border: 2px solid black;*/
+  width: 300px;
+}
