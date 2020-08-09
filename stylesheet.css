@@ -93,9 +93,10 @@ header {
   animation-duration: 2s; /* don't forget to set a duration! */
 }
 
-.top-main {
-  padding: 190px 0;
-  background: rgba(0, 0, 0, 0.5) url(https://cdn.pixabay.com/photo/2017/07/06/06/11/coffe-2477154_960_720.jpg);
+.top-wrapper {
+  padding: 140px 0 100px 0;
+  background: rgba(0, 0, 0, 0.5)
+    url(https://cdn.pixabay.com/photo/2017/07/06/06/11/coffe-2477154_960_720.jpg);
   background-size: cover;
   background-blend-mode: darken;
   color: white;
